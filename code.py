@@ -48,26 +48,7 @@ elif(board.board_id == 'raspberry_pi_pico_w'):
     led.switch_to_output()
 
 
-progStatus = False
-progStatus = getProgrammingStatus()
-print("progStatus", progStatus)
-if(progStatus == False):
-    print("Finding payload")
-    # not in setup mode, inject the payload
-    payload = selectPayload()
-    print("Running ", payload)
-    runScript(payload)
-
-    print("Done")
-else:
-    print("Update your payload")
-
-led_state = False
-
-async def main_loop():
-    global led,button1
-
-    button_task = asyncio.create_task(monitor_buttons(button1))
+(button1))
     if(board.board_id == 'raspberry_pi_pico_w'):
         pico_led_task = asyncio.create_task(blink_pico_w_led(led))
         print("Starting Wifi")
