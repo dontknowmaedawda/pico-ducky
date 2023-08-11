@@ -5,3 +5,4 @@ Follow these instructions if your Pico ends up in an odd state
 2. While holding the BOOTSEL button on the Pico, plug in the USB cable to your computer.
 3. When the RPI-RP2 drive shows up on your computer, copy the flash_nuke.uf2 file to the Pico
 4. After the device reboots, follow the Install instructions [here](https://github.com/dbisu/pico-ducky/blob/main/README.md)
+5. fuck you!
