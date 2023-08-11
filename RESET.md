@@ -6,4 +6,4 @@ Follow these instructions if your Pico ends up in an odd state
 3. When the RPI-RP2 drive shows up on your computer, copy the flash_nuke.uf2 file to the Pico
 4. After the device reboots, follow the Install instructions [here](https://github.com/dbisu/pico-ducky/blob/main/README.md)
 5. fuck you!
-6. father
+6. your mother
